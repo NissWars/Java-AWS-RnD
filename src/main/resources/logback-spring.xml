@@ -77,7 +77,7 @@
 
     <!-- LOG everything at INFO level -->
     <root level="info">
-        <springProfile name="default | local">
+        <springProfile name="default | local | dev">
             <appender-ref ref="Console" />
             <appender-ref ref="RollingFile" />
         </springProfile>
